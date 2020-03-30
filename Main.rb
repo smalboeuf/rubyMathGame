@@ -1,4 +1,4 @@
-require_relative './Game'
+require './Game'
 
 class Main
 
