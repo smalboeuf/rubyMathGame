@@ -1,0 +1,45 @@
+Game:
+Create a 2-Player math game where players take turns to answer simple math addition problems. A new math question is generated for each turn by picking two numbers between 1 and 20.
+ The player whose turn it is is prompted the question and must answer correctly or lose a life.
+
+Details:
+Both players start with 3 lives. They lose a life if they mis-answer a question. At the end of every turn, the game should output the new scores for both players,
+ so players know where they stand.
+
+The game doesn’t end until one of the players loses all their lives. At this point, the game should announce who won and what the other player’s score is.
+
+
+Player class:
+Holds data for:
+Name
+life
+
+methods:
+initialize
+
+
+Game: 
+Needs to import player class
+Holds data for the game.
+Initializes the players
+Outputs the rounds
+Will contain the game loop
+Keep going until a player gets to 0 lives
+Will manage who current playere is
+
+Methods:
+initialize
+round_status
+
+Main:
+Need to import the game class
+This is where the game will be executed
+
+
+Round play pattern:
+Display Player and question:
+Takes in user input
+Assess if answer is correct
+Output if it is correct
+CHange the life totals if necessary
+Output new turn
